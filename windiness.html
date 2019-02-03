@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-    <title>Weather Visualization Dashboard</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Wind Speed</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,7 +19,6 @@
                 </button>
                 <a class="navbar-brand" href="index.html">Lattitude</a>
             </div>
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
@@ -58,28 +58,22 @@
         </div>
     </nav>
 
-
     <div class="container">
         <div class="row row-grid">
+
             <div class="col-md-8">
                 <div class="box box-left">
                     <section id="intro">
-                        <h1>Summary: Latitude vs. X</h1>
+                        <h1>Windiness</h1>
                         <hr>
                         <figure>
-                            <a target="_blank" href="temperature.html">
-                                <img id="img-png2" src="Resources/assets/images/Fig1.png" alt="Max Temperature" align="left">
+                            <a target="_blank" href="windiness.html">
+                                <img id="img-png1" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
                             </a>
                         </figure>
-
-                        <section id="text-bottom">
-                       <p>Welcome! here is an analysis of weather patterns around the equator using the Open Weather Map API. Through this data we are looking for trends that arise near the eqator. 
-                       </p>
-                       <br>
-                    <p>We have filtered through the API data set and created the various Matplotlib scatter plots of temperature, cloudness, wind speed and humidity.
-                       </p>
-
-                        </section>
+                            <section id="text-Top">
+                            <p>There appears to be a greater trend of higher wind speeds with the greater the Lattitude</p>
+                            </section>
 
                     </section>
                 </div>
@@ -95,7 +89,7 @@
                     <div class="row">
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>
-                                <a href="temperature.html">
+                                <a href="temp.html">
                                     <img id="img-png" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
                                 </a>
                             </figure>
@@ -103,7 +97,7 @@
 
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>
-                                <a href="humidity.html">
+                                <a href="humid.html">
                                     <img id="img-png" src="Resources/assets/images/Fig2.png" alt="Humidity">
                                 </a>
                             </figure>
@@ -111,7 +105,7 @@
 
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>
-                                <a href="cloudiness.html">
+                                <a href="cloud.html">
                                     <img id="img-png" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
                                 </a>
                             </figure>
@@ -119,7 +113,7 @@
 
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>
-                                <a href="windiness.html">
+                                <a href="wind.html">
                                     <img id="img-png" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
                                 </a>
                             </figure>
@@ -133,14 +127,14 @@
     </div>
 
 
-
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous">
         </script>
-
 <div class="footer">
+
 </div>
 
-
 </body>
+</html>
